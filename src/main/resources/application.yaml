@@ -2,3 +2,7 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://{{USER}}:{{PASSWORD}}@cluster0.cukr2.mongodb.net/JobFancy
+
+server:
+  servlet:
+    contextPath: "/mnt_job_fancy/v1"
