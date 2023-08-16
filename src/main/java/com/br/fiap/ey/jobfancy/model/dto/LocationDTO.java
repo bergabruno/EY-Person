@@ -12,13 +12,10 @@ public class LocationDTO {
 
     @NotBlank
     private String city;
-
     @NotBlank
     private String country;
-
     @NotBlank
     private String state;
-
     @NotBlank
     private String address;
 }
